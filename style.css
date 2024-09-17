@@ -1,0 +1,1037 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: peachpuff;
+}
+
+span {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(33, 37, 41, 0) !important;
+}
+
+#con-1-right img {
+  width: 100%;
+  height: 100vh;
+}
+
+#p1 {
+  font-family: monospace;
+  font-size: 60px;
+}
+
+#con-2 {
+  display: flex;
+  align-items: center;
+  width: 17%;
+  height: 8vh;
+  justify-content: center;
+
+}
+
+.navbar {
+  background-color: #6c757d00;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 70px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  color: black;
+  font-family: fantasy;
+  font-size: 17px;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.navbar-scrolled {
+  background-color: #fcd7ab;
+  color: peachpuff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bg-1 {
+  background: url("/images/1-bg.png") no-repeat center center/cover;
+  margin-left: -1px;
+  width: 100%;
+  margin-top: -1px;
+  height: 100vh;
+
+}
+
+#con-1-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 71%;
+  height: 100vh;
+  gap: 32px;
+  background-color: rgb(95, 70, 70);
+  background: url("https://img.freepik.com/free-vector/white-minimal-abstract-background_23-2148858752.jpg?t=st=1726124846~exp=1726128446~hmac=607e03f5de4384d9c29c8ee45c9ce076b19dc52efc0f3fbd370634187437dc07&w=900")no-repeat center center/cover;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+#con-1-right {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+#scl:hover {
+  scale: 105%;
+  transition: 1s;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+#h-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 3.25rem;
+  color: #111;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+@media(max-width:1000px) {
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 14.25rem;
+  }
+}
+
+.gallery-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  cursor: grab;
+  padding-bottom: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: #444 #e0e0e0;
+}
+
+.gallery-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.gallery-container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff6b6b, #f94d6a, #9b1b1b);
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.gallery {
+  display: flex;
+  transition: transform 0.3s ease;
+  user-select: none;
+  gap: 5px;
+  scroll-behavior: smooth;
+}
+
+.image-container {
+  position: relative;
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.image-container img:hover {
+  scale: 105%;
+  transition: 0.90s;
+}
+
+.image-container img {
+  width: 100%;
+  height: 50vh;
+  display: block;
+  object-fit: fill;
+}
+
+.image-container h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+.buttons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-wide:hover {
+  background: rgba(240, 204, 172, 0.902);
+  color: #111;
+}
+
+.btn-wide {
+  width: 20%;
+  height: 9vh;
+}
+
+#cros {
+  font-size: 6.5rem;
+  font-family: fantasy;
+}
+
+#cros2 {
+  font-size: 4.5rem;
+  font-family: fantasy;
+
+}
+
+.opacity-75 {
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gap {
+  display: flex;
+  gap: 27px;
+  margin-bottom: 76px;
+}
+
+#gap2 {
+  display: flex;
+  gap: 53px;
+  margin-bottom: 132px;
+}
+
+#gap3 {
+  padding-bottom: 8.25rem;
+  gap: 4px;
+}
+
+.align-items-center {
+  justify-content: center !important;
+}
+
+#b2 {
+  padding: 9px 23px;
+  font-size: 18px;
+
+}
+
+#k-img {
+  border-radius: 0px;
+  border: none;
+  height: 56vh;
+
+}
+
+#k2-img {
+  border-radius: 0px;
+  border: none;
+  height: 43vh;
+
+}
+
+#k3-img {
+  border-radius: 0px;
+  border: none;
+  height: 55vh;
+
+}
+
+#mo-img {
+  border-radius: 0px;
+  border: none;
+  height: 33vh;
+
+}
+
+#spe-img {
+  border-radius: 0px;
+  border: none;
+  height: 31vh;
+
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center !important;
+  font-family: fangsong;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid;
+}
+
+#dropdownMenuLink {
+  border: none;
+}
+
+.navbar-expand-md .navbar-nav {
+  align-items: center;
+}
+
+#dropdownMenuLink:hover {
+  color: white;
+
+}
+
+.dropdown-menu {
+  background: peachpuff;
+  text-align: center;
+}
+
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: white;
+}
+
+
+
+
+.row {
+  justify-content: center;
+}
+
+.col-md-7 {
+  display: flex;
+  align-items: center;
+}
+
+#abush1 {
+  font-family: fantasy;
+}
+
+.featurette-heading {
+  font-family: math;
+}
+
+#owner {
+  width: 40rem;
+  background: transparent;
+  display: flex;
+  margin: auto;
+  border: none;
+}
+
+.col-md-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  display: flex;
+  align-items: center;
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/002/016/989/original/the-interior-of-a-large-office-free-video.jpg")no-repeat center center/cover;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  width: 107%;
+  height: 10vh;
+}
+
+#btn2 {
+  font-family: fantasy;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  text-align: center;
+  background: #f5f5f575;
+  /* height: 281px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-start {
+  background: url("https://wallpapers.com/images/hd/powerpoint-background-494hdfyvnc9qcrgo.jpg")no-repeat center center/cover;
+}
+
+#fa1 {
+  font-family: fantasy;
+  font-size: 40px;
+  color: darkslateblue;
+}
+
+#fa {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+}
+
+.testimonial-section {
+  background-color: rgb(241, 206, 175);
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+
+.testimonial-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.testimonial-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #FF5722;
+  margin: 10px auto 0;
+}
+
+
+.testimonial-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #FF5722 #f4f4f4;
+  cursor: grab;
+}
+
+.testimonial-row:active {
+  cursor: grabbing;
+}
+
+.testimonial-row::-webkit-scrollbar {
+  height: 12px;
+}
+
+.testimonial-row::-webkit-scrollbar-track {
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.testimonial-row::-webkit-scrollbar-thumb {
+  background: #FF5722;
+  border-radius: 10px;
+}
+
+.testimonial-row::-webkit-scrollbar-thumb:hover {
+  background: #e64a19;
+}
+
+.testimonial-box {
+  border-radius: 15px;
+  min-width: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scroll-snap-align: start;
+  color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-box:nth-child(odd) {
+  background: rgba(30, 144, 255, 0.6);
+}
+
+.testimonial-box:nth-child(even) {
+  background: rgba(255, 105, 180, 0.6);
+}
+
+.testimonial-box:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-box p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.testimonial-box h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.rating {
+  display: block;
+  font-size: 18px;
+  color: #ffdd00;
+  margin-bottom: 10px;
+}
+
+.container-con {
+  background: url(https://hbr.org/resources/images/article_assets/2020/07/BI_OFFICE_Gavett-HERO.jpg)no-repeat center center/cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.image-section {
+  display: none;
+  margin-top: 20px;
+}
+
+.image-section.active {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-section .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: peachpuff;
+  background-color: rgba(14, 12, 12, 0.671);
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-wide {
+  width: 150px;
+  margin-top: 15px;
+}
+
+#btn {
+  font-weight: bold;
+}
+
+.image-section .image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8%;
+  transition: 0.3s;
+}
+
+.image-section img:hover {
+  opacity: 0.8;
+}
+
+.image-section .image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: self-end;
+  flex-wrap: wrap;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  font-family: fantasy;
+}
+
+#medover2 {
+  display: none;
+}
+
+#med20 {
+  display: none;
+}
+
+/* Cart Toggle Button (Bar) */
+.cart-toggle-bar {
+  position: fixed;
+  top: 110px;
+  right: 0;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+  transition: right 0.3s ease;
+  z-index: 9999;
+}
+
+.cart-toggle-bar:hover {
+  background-color: #0056b3;
+}
+
+
+.cart-sidebar.active {
+  right: 0;
+}
+
+#cartItems li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  gap: 8px;
+}
+
+#cartItems img {
+  width: 70%;
+  height: auto;
+}
+
+/* Cart Sidebar */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(243, 201, 164);
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 9999;
+}
+
+
+#cartSidebar.active {
+  right: 0;
+}
+
+#cartItems {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cartItems li {
+  margin-bottom: 15px;
+}
+
+#cartItems img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 14px;
+}
+
+#cont1 {
+  font-size: 70px;
+  color: white;
+}
+
+#cont2 {
+  font-family: system-ui;
+  font-size: 70px;
+  font-weight: 800;
+  color: #f2ede9;
+}
+
+/* Media Query */
+/* Responsive */
+@media(max-width:550px) {
+  span {
+    font-size: 29px;
+  }
+
+  #con-1-right img {
+    height: 60vh;
+  }
+
+  #con-1-left {
+    height: 60vh;
+  }
+
+  #p1 {
+    font-size: 32px;
+  }
+
+  #con-2 {
+    width: 32%;
+    height: 5vh;
+  }
+
+  #bg-1 {
+    height: 60vh;
+  }
+
+  #media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row {
+    width: 90%;
+    margin: auto;
+  }
+
+  .navbar-scrolled {
+    height: auto;
+  }
+
+  .navbar-toggler-icon {
+    background-size: 80%;
+  }
+
+  .carousel-inner img {
+    height: 60vh;
+  }
+
+  .opacity-75 {
+    font-size: 30px;
+  }
+
+  #cros {
+    font-size: 50px;
+  }
+
+  #cros2 {
+    font-size: 50px;
+  }
+
+  #cros3 {
+    font-size: 50px;
+  }
+
+  #gap {
+    gap: 0px;
+  }
+
+  #gap2 {
+    gap: 0px;
+  }
+
+  #gap3 {
+    gap: 0px;
+  }
+
+  .carousel {
+    height: 60vh;
+    margin-top: 20px;
+  }
+
+
+}
+
+@media (max-width:770px) {
+  #medover1 {
+    display: none;
+  }
+
+  #med10 {
+    display: none;
+  }
+
+  #medover2 {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  #med20 {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #con-2 {
+    width: 38%;
+    height: 5vh;
+    margin: -30px;
+  }
+}
+
+@media (max-width:500px) {
+  span {
+    font-size: 28px;
+  }
+
+  #p1 {
+    font-size: 30px;
+  }
+
+  #cros {
+    font-size: 38px;
+  }
+
+  .opacity-75 {
+    font-size: 29px;
+  }
+
+  #cros2 {
+    font-size: 29px;
+  }
+
+  #con-2 {
+    width: 38%;
+    height: 5vh;
+    margin: -30px;
+  }
+
+  #bg-1 {
+    display: flex;
+    flex-direction: column !important;
+    height: 100vh;
+  }
+
+  #con-1-left {
+    width: auto;
+  }
+
+  #con-1-right img {
+    height: 48vh;
+  }
+
+  #medimg {
+    width: 95px;
+  }
+
+  #cont1 {
+    font-size: 40px;
+    font-family: cursive;
+  }
+
+  #cont2 {
+    font-size: 44px;
+  }
+
+
+}
+
+@media (max-width:450px) {
+  span {
+    font-size: 23px;
+  }
+
+  #p1 {
+    font-size: 27px;
+  }
+
+
+  .row {
+    width: 100%;
+  }
+
+
+  #con-2 {
+    width: 23%;
+    height: 6vh;
+    margin: -30px;
+    font-family: cursive;
+  }
+
+  .carousel-caption {
+    bottom: 8.25rem;
+  }
+
+  .opacity-75 {
+    font-size: 16px;
+  }
+
+  #cros {
+    font-size: 33px;
+    width: 106%;
+  }
+
+  #cros2 {
+    font-size: 28px;
+    width: 106%;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  #bg-1 {
+    background: url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149050921.jpg?w=900&t=st=1726560835~exp=1726561435~hmac=a5db695d0d1acfce9f907d2c6f77e7a7855e1720ff97d42aaaf9fc9712ec0144") no-repeat center center/cover;
+
+  }
+
+}
+
+@media (max-width:420px) {
+  #gap {
+    margin-bottom: 180px;
+
+  }
+
+  #gap2 {
+    margin-bottom: 250px;
+  }
+
+  #gap3 {
+    margin-bottom: 130px;
+
+  }
+
+  #cros2 {
+    font-size: 29px;
+    width: 111%;
+  }
+
+  .opacity-75 {
+    font-size: 21px;
+    width: 105%;
+  }
+
+  .image-section.active {
+    width: 80%;
+  }
+
+  #k2-img {
+    height: 18vh;
+  }
+
+  #mo-img {
+    height: 14vh;
+  }
+
+  #spe-img {
+    height: 16vh;
+  }
+
+  #k-img {
+    height: auto;
+  }
+
+  #meda {
+    width: 100%;
+  }
+
+  #fa1 {
+    font-size: 26px;
+    width: 116%;
+
+  }
+
+  #fa {
+    font-size: 21px;
+    width: 113%;
+  }
+
+  .col-md-8 {
+    width: 99.666667%;
+  }
+
+  #btn2 {
+    font-family: fantasy;
+    height: 5vh;
+    width: 103%;
+    font-size: 13px;
+    margin: auto;
+  }
+
+  .featurette-heading {
+    font-size: 17px;
+  }
+
+  #cont1 {
+    font-size: 35px;
+    font-family: cursive;
+  }
+
+  #cont2 {
+    font-size: 33px;
+  }
+
+  form {
+    width: 105%;
+
+  }
+
+}
+

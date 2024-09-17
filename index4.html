@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WALL CLOCK & OTHERS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/images/favi.png">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" alt="" width="150" id="medimg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Align all links to the right -->
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="productsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/index2.html">ALL TYPES OF KEYCHAIN</a></li>
+                            <li><a class="dropdown-item" href="/index3.html">NOVELTY E-CATALOGUE</a></li>
+                            <li><a class="dropdown-item" href="/index4.html" style="border: none;">WALL CLOCK &
+                                    OTHERS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index5.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index6.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="container-fluid mt-4" id="med10">
+            <h1 class="text-center mb-3 font-mono">WALL CLOCK & OTHERS</h1>
+            <div class="buttons">
+                <button class="btn btn-warning me-2" onclick="showSection('showcase1')"> GOLD FINISH</button>
+                <button class="btn btn-warning me-2" onclick="showSection('showcase2')">CHROME FINISH</button>
+                <button class="btn btn-warning" onclick="showSection('showcase3')">WOODEN FINISH</button>
+                <button class="btn btn-warning" onclick="showSection('showcase4')">SPECIAL MDF ITEMS</button>
+                <button class="btn btn-warning" onclick="showSection('showcase5')">PAPER WEIGHT</button>
+            </div>
+        </div>
+
+        <div class="container " id="med20">
+            <h1 class="text-center mb-3 font-mono " style="margin-top: 60px;">WALL CLOCK & OTHERS</h1>
+            <div class="dropdown">
+                <button class="btn btn dropdown-toggle bg-black text-white" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    PRODUCTS
+                </button>
+                <ul class="dropdown-menu">
+                    <li style="border-bottom: 1px solid;"><button class="btn btn"
+                            onclick="showSection('showcase1')">GOLD
+                            FINISH</button></li>
+                    <li style="border-bottom: 1px solid;"><button class="btn btn"
+                            onclick="showSection('showcase2')">CHROME
+                            FINISH</button></li>
+                    <li style="border-bottom: 1px solid;"><button class="btn btn"
+                            onclick="showSection('showcase3')">WOODEN
+                            FINISH</button></li>
+                    <li style="border-bottom: 1px solid;"><button class="btn btn" onclick="showSection('showcase4')">MDF
+                            ITEMS</button></li>
+                    <li><button class="btn btn" onclick="showSection('showcase5')">PAPER WEIGHT</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="showcase1" class="image-section active row g-4 mt-4">
+            <div class="row mb-2">
+                <!-- First Column -->
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/gol1.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center bg-">
+                            <div class="btn-group-vertical ">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol1.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/gol2.png" class="bd-placeholder-img card-img-top rounded-circle "
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol2.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/gol3.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol3.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/gol4.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol4.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/gol5 (2).png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol5 (2).png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/gol6.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Gold Finish', '/images/gol6.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="showcase2" class="image-section row g-4 mt-4">
+            <div class="row mb-2 ">
+                <!-- First Column -->
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/sil1.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center ">
+                            <div class="btn-group-vertical ">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/sil1.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/ch2.png" class="bd-placeholder-img card-img-top rounded-circle "
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/ch2.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/ch3.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/ch3.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/gol4.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/gol4.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/ch5.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/ch5.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/ch6.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Chrome Finish', '/images/ch6.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="showcase3" class="image-section row g-4 mt-4">
+            <div class="row mb-2">
+                <!-- First Column -->
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/wo1.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center bg-">
+                            <div class="btn-group-vertical ">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Wooden Finish', '/images/wo1.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/wo2.png" class="bd-placeholder-img card-img-top rounded-circle "
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Wooden Finish', '/images/wo2.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/wo3.png" class="bd-placeholder-img card-img-top rounded-circle"
+                                width="100%" height="225" alt="Custom Thumbnail" id="k2-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Wooden Finish', '/images/wo3.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="showcase4" class="image-section row g-4 mt-4">
+            <div class="row mb-2">
+                <!-- First Column -->
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/mdf1.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center bg-">
+                            <div class="btn-group-vertical ">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf1.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/mdf2.png" class="bd-placeholder-img card-img-top  " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf2.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/mdf3.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf3.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/mdf4.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf4.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/mdf5.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf5.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/mdf6.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('MDF items', '/images/mdf6.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="showcase5" class="image-section row g-4 mt-4">
+            <div class="row mb-2">
+                <!-- First Column -->
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/pw1.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center bg-">
+                            <div class="btn-group-vertical ">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw1.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src=" /images/pw2.png" class="bd-placeholder-img card-img-top  " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw2.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/pw3.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="mo-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw3.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/pw4.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="spe-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw4.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/pw5.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="spe-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw5.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <!-- Image on the Left Side -->
+                        <div class="col-auto ">
+                            <img src="/images/pw6.png" class="bd-placeholder-img card-img-top " width="100%"
+                                height="225" alt="Custom Thumbnail" id="spe-img">
+                        </div>
+
+                        <!-- Vertical Icon Box on the Right Side -->
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="btn-group-vertical">
+                                <button class="btn btn-sm btn-outline-secondary" id="b2">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button id="b2" class="btn btn-sm btn-outline-secondary"
+                                    onclick="addToCart('Paper Weight', '/images/pw6.png')">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="cartToggleBar" class="cart-toggle-bar" onclick="toggleCartSidebar()">
+        <i class="fas fa-shopping-cart"></i>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div id="cartSidebar" class="cart-sidebar">
+        <h3 class="text-center"> Your Purchases</h3>
+        <hr>
+        <ul id="cartItems">
+            <!-- Cart items will be added here -->
+        </ul>
+    </div>
+    </div>
+
+
+    <!-- footer --> <br>
+    <hr style="width: 95%; margin:0 auto;">
+    <footer class=" text-muted text-center text-small">
+        <p class="mb-1"><span><img src="/images/logo.png" alt="" width="150"></span></p>
+        <ul class="list-inline">© 2024-25 Marketing
+        </ul>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.1.5/dist/purecounter_vanilla.js"></script>
+
+
+</body>
+
+</html>
